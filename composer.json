@@ -1,5 +1,5 @@
 {
-    "name": "small/utils",
+    "name": "cooko/utils",
     "type": "library",
     "license": "Apache-2.0",
     "homepage": "https://github.com/dabaicai/utils",
@@ -16,12 +16,12 @@
             "src/helpers.php"
         ],
         "psr-4": {
-            "Small\\Utils\\": "src/"
+            "Cooko\\Utils\\": "src/"
         }
     },
     "require": {
         "php": "^8.0",
-        "small/macro": "^1.0",
+        "cooko/macro": "^1.0",
         "ramsey/uuid": "^4.2",
         "symfony/mime": "*",
         "voku/portable-ascii": "^1.5",
