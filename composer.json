@@ -1,0 +1,32 @@
+{
+    "name": "dabaicai/config",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "dabaicai",
+            "email": "1533818954@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DaBaiCai\\Config\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DaBaiCai\\Config\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9.27"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "dabaicai": {
+            "config": "DaBaiCai\\Config\\ConfigProvider"
+        }
+    }
+}
